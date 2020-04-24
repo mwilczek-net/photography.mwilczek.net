@@ -1,0 +1,32 @@
+# Site settings
+title: Photo Gallery mwilczek.net
+name: Photo Gallery mwilczek.net
+description: Photo Gallery mwilczek.net
+defaultSocialMediaImage: "2020-04-25-winter-2019-2020/IMG_4408.jpeg"
+
+socialMedia:
+  GitHub:
+    url: "https://mwilczek-net.github.io/"
+    icon: "brands fa-github"
+  Web:
+    url: "http://mwilczek.net"
+    icon: "solid fa-globe"
+
+thumbs: "/images/thumbs/"
+images: "/images/fulls/"
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Theme settings
+compress_html:
+  comments: ["<!-- ", " -->"]
+  clippings: all
+  endings: all
+
+# Host domain
+url: "https://photography.mwilczek.net"
+
+# URL from domain root
+baseurl: "/"
