@@ -7,4 +7,4 @@ summary: "List of galleries photography.mwilczek.net"
 
 Photos by mwilczek.net
 
-Chose gallery
+Choose gallery
