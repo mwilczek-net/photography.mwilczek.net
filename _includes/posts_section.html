@@ -1,7 +1,7 @@
 <section id="thumbnails">
   {% for post in site.posts %}
     <article>
-      <a class="thumbnail" href="{{ site.baseurl }}{{ site.images }}{{ post.coverPhoto }}" data-position="left center"><img src="{{ site.baseurl }}{{ site.thumbs }}{{ post.coverPhoto }}" alt="{{ post.title }}" /></a>
+      <a class="thumbnail" href="{{ site.baseurl }}{{ site.images }}{{ post.coverPhoto }}" data-position="center center"><img src="{{ site.baseurl }}{{ site.thumbs }}{{ post.coverPhoto }}" alt="{{ post.title }}" /></a>
       <h2>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h2>
