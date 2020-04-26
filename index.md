@@ -1,6 +1,6 @@
 ---
 layout: default
-title: photography.mwilczek.net
+title: photography mwilczek.net
 summary: "List of galleries photography.mwilczek.net"
 
 ---
