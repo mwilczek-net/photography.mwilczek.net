@@ -162,6 +162,13 @@ input, select, textarea {
 			color: #00D3B7;
 		}
 
+	.caption a {
+		color: #00D3B7;
+	}
+	.caption a:hover {
+		color: #aaa;
+	}
+
 	strong, b {
 		font-weight: 400;
 		color: #555;
