@@ -66,6 +66,12 @@ var main = (function($) { var _ = {
 	$toggle: null,
 
 	/**
+	 * Toggle contain.
+	 * @var {jQuery}
+	 */
+	$toggleContain: null,
+
+	/**
 	 * Nav (next).
 	 * @var {jQuery}
 	 */
@@ -152,6 +158,7 @@ var main = (function($) { var _ = {
 						'<div class="nav-next"></div>' +
 						'<div class="nav-previous"></div>' +
 						'<div class="toggle"></div>' +
+						'<div class="toggle-contain"></div>' +
 					'</div>' +
 				'</div>'
 			).appendTo(_.$body);
@@ -164,10 +171,11 @@ var main = (function($) { var _ = {
 			_.$main = $('#main');
 
 		// Toggle.
-			$('<div class="toggle"></div>')
+			$('<div class="toggle"></div><div class="toggle-contain"></div>')
 				.appendTo(_.$main);
 
 			_.$toggle = $('.toggle');
+			_.$toggleContain = $('.toggle-contain');
 
 	},
 
@@ -331,6 +339,10 @@ var main = (function($) { var _ = {
 				_.toggle();
 			});
 
+			_.$toggleContain.on('click', function() {
+				_.$body.toggleClass('contain-image');
+			})
+
 			// Prevent event from bubbling up to "hide event on tap" event.
 				_.$toggle.on('touchend', function(event) {
 					event.stopPropagation();
@@ -422,7 +434,7 @@ var main = (function($) { var _ = {
 					// Slide.
 
 						// Create elements.
-	 						s.$slide = $('<div class="slide"><div class="caption"></div><div class="image"></div></div>');
+	 						s.$slide = $('<div class="slide"><div class="caption"></div><div class="image cover-image"></div><div class="image contain-image"></div></div>');
 
 	 					// Image.
  							s.$slideImage = s.$slide.children('.image');
