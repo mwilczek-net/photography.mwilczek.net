@@ -1378,7 +1378,7 @@ input, select, textarea {
 					transition: opacity 0.75s ease;
 					background-image: url("images/contain-cover.svg");
 					opacity: 0;
-					right: 0;
+					right: 4em;
 				}
 
 				body.fullscreen #viewer .inner .toggle {
