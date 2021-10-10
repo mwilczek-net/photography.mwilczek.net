@@ -3,12 +3,12 @@
     <article>
       <a class="thumbnail" href="{{ site.baseurl }}{{ site.images }}{{ post.coverPhoto }}" data-position="center center"><img src="{{ site.baseurl }}{{ site.thumbs }}{{ post.coverPhoto }}" alt="{{ post.title }}" /></a>
       <h2>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <a href="{{ post.url | relative_url }}">{{ post.title }} - click for more!</a>
       </h2>
       <p>
         {{ post.summary }}
         <br>
-        <a href="{{ post.url | relative_url }}">Full gallery</a> | <a href="{{ site.baseurl }}{{ site.images }}{{ post.coverPhoto }}" target="_blank">Full image</a>
+        <a href="{{ post.url | relative_url }}">Go to full gallery: {{ post.title }}</a> | <a href="{{ site.baseurl }}{{ site.images }}{{ post.coverPhoto }}" target="_blank">Full image</a>
       </p>
     </article>
   {% endfor %}
