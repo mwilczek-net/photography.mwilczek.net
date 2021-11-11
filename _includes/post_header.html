@@ -1,5 +1,12 @@
 <header id="header">
   <p><a href="{{ site.url }}/">&larr; Back to GALLERY LIST</a><p>
+  {% if page.next.url %}
+    <p><a href="{{ page.next.url | relative_url}}">&larr; {{ page.next.title }}</a><p>
+  {% endif %}
+  {% if page.previous.url %}
+    <p><a href="{{ page.previous.url | relative_url}}">&rarr; {{ page.previous.title }}</a><p>
+  {% endif %}
+
   <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
   {{ content }}
   <ul class="icons">
