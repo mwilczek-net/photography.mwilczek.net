@@ -1,5 +1,16 @@
 <footer id="footer">
-  <p><a href="{{ site.url }}/">&larr; Back to GALLERY LIST</a><p>
+  <p><a href="{{ site.url }}/">Back to GALLERY LIST <i class="fas fa-home"></i></a><p>
+  <p>
+    {% if page.next.url %}
+      <a href="{{ page.next.url | relative_url }}">{{ page.next.title }} <i class="fas fa-arrow-circle-left"></i></a>
+    {% endif %}
+    {% if page.next.url && page.previous.url %}
+      <br>
+    {% endif %}
+    {% if page.previous.url %}
+      <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }} <i class="fas fa-arrow-circle-right"></i></a>
+    {% endif %}
+  </p>
   <ul class="copyright">
     <li>Copyrighted content &copy; mwilczek.net.</li>
     <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a> - Licence CC 3.0</li>
