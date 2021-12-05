@@ -7,13 +7,4 @@
   <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
   {{ content }}
   {% include social_icons.html %}
-  <ul class="icons">
-    {% if site.socialMedia %}
-      {% for socialMedium in site.socialMedia %}
-        {% if socialMedium[1].url %}
-          <li><a href="{{ socialMedium[1].url }}" class="icon {{ socialMedium[1].icon }}" target="_blank"><span class="label">{{ socialMedium[0] }}</span></a></li>
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-  </ul>
 </header>
