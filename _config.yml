@@ -13,7 +13,7 @@ socialMedia:
     icon: "brands fa-github"
   Blog:
     url: "https://blog.mwilczek.net/"
-    icon: "fas fa-blog
+    icon: "fas fa-blog"
 
 thumbs: "/images/thumbs/"
 images: "/images/fulls/"
