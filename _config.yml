@@ -5,12 +5,15 @@ description: Photo Gallery photography.mwilczek.net
 defaultSocialMediaImage: "2020-04-25-winter-2019-2020/IMG_4408.jpeg"
 
 socialMedia:
-  GitHub:
-    url: "https://github.com/mwilczek-net/"
-    icon: "brands fa-github"
   Web:
     url: "https://mwilczek-net.github.io/"
     icon: "solid fa-globe"
+  GitHub:
+    url: "https://github.com/mwilczek-net/"
+    icon: "brands fa-github"
+  Blog:
+    url: "https://blog.mwilczek.net/"
+    icon: "fas fa-blog
 
 thumbs: "/images/thumbs/"
 images: "/images/fulls/"
