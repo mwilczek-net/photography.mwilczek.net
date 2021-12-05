@@ -1,15 +1,7 @@
 <footer id="footer">
   <p><a href="{{ site.url }}/">Back to GALLERY LIST <i class="fas fa-home"></i></a><p>
   <p>
-    {% if page.next.url %}
-      <a href="{{ page.next.url | relative_url }}">{{ page.next.title }} <i class="fas fa-arrow-circle-right"></i></a>
-    {% endif %}
-    {% if page.next.url && page.previous.url %}
-      <br>
-    {% endif %}
-    {% if page.previous.url %}
-      <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }} <i class="fas fa-arrow-circle-left"></i></a>
-    {% endif %}
+    {% inclde posts_next_prev.html }
   </p>
   <ul class="copyright">
     <li>Copyrighted content &copy; mwilczek.net.</li>
