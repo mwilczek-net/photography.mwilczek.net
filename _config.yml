@@ -6,10 +6,10 @@ defaultSocialMediaImage: "2020-04-25-winter-2019-2020/IMG_4408.jpeg"
 
 socialMedia:
   GitHub:
-    url: "https://mwilczek-net.github.io/"
+    url: "https://github.com/mwilczek-net/"
     icon: "brands fa-github"
   Web:
-    url: "http://mwilczek.net"
+    url: "http://mwilczek-net.github.io/"
     icon: "solid fa-globe"
 
 thumbs: "/images/thumbs/"
