@@ -6,6 +6,7 @@
 
   <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
   {{ content }}
+  {% include social_icons.html %}
   <ul class="icons">
     {% if site.socialMedia %}
       {% for socialMedium in site.socialMedia %}
