@@ -35,9 +35,7 @@ createGalleryFileIfNotExists() {
 }
 
 listImagesForGallery() {
-  echo "Scanning for images"
-
-  find "${galleryImagesDir}" -print0 -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' | xargs -0 -I '{}' './generate_new_gallery_listing_images.sh' '{}'
+  find "${galleryImagesDir}" \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) -print0 | xargs -0 -I '{}' './generate_new_gallery_listing_images.sh' '{}'
 }
 
 generateGalleryContent() {
