@@ -1,3 +1,5 @@
+#!/bin/bash
+
 . ./generate_new_gallery_consts.sh
 
 imageFullPath=${1}
