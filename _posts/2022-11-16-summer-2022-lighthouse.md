@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Summer 2022 - Lighthouse
-summary: "South Baltic sea"
+summary: "South Baltic Sea"
 date: 2022-11-16
 coverPhoto: "2022-11-16-summer-2022-lighthouse/IMG_4884_rt.jpg"
 photos:
@@ -25,4 +25,4 @@ photos:
     description: "Behind"
 ---
 
-Lighthouse - South Baltic sea
+Lighthouse - South Baltic Sea
