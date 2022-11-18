@@ -43,7 +43,7 @@ photos:
     description: "Version 03"
   "2022-11-18-summer-2022-sunsets/IMG_5652_rt.jpg":
     title: "Sunset 02.02"
-    description: "Version 04"
+    description: "Version 01"
   "2022-11-18-summer-2022-sunsets/IMG_5653_rt.jpg":
     title: "Abstract 01"
     description: "Based on Sunset 02.02"
