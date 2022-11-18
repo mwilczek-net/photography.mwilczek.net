@@ -3,7 +3,7 @@ layout: post
 title: Summer 2022 - Sunsets
 summary: "Collection of sunsets"
 date: 2022-11-18
-coverPhoto: "2022-11-18-summer-2022-sunsets/SELECT_COVER_PHOTO.null !!! !!!"
+coverPhoto: "2022-11-18-summer-2022-sunsets/IMG_5649_rt.jpg"
 photos:
   "2022-11-18-summer-2022-sunsets/IMG_4352_rt.jpg":
     title: "Sunset 01"
