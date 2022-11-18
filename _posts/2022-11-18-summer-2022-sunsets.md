@@ -39,11 +39,11 @@ photos:
     title: "Rock 01"
     description: "Sunset 02.01"
   "2022-11-18-summer-2022-sunsets/IMG_5649_rt.jpg":
-    title: "Rock 02"
-    description: "Sunset 02.01"
+    title: "Sunset 02.01"
+    description: "Version 03"
   "2022-11-18-summer-2022-sunsets/IMG_5652_rt.jpg":
     title: "Sunset 02.02"
-    description: "Version 01"
+    description: "Version 04"
   "2022-11-18-summer-2022-sunsets/IMG_5653_rt.jpg":
     title: "Abstract 01"
     description: "Based on Sunset 02.02"
