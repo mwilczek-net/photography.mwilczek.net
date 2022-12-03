@@ -3,7 +3,7 @@ layout: post
 title: Summer 2022 - Butterflies
 summary: "House of the Butterflies"
 date: 2022-12-03
-coverPhoto: "2022-12-03-summer-2022-butterflies/SELECT_COVER_PHOTO.null !!! !!!"
+coverPhoto: "2022-12-03-summer-2022-butterflies/IMG_4809_rt.jpg"
 photos:
   "2022-12-03-summer-2022-butterflies/IMG_4792_rt.jpg":
     title: "Butterfly 0x01"
