@@ -14,13 +14,13 @@
 <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}">
 
 {% if page.coverPhoto %}
-  <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.thumbs }}{{ page.coverPhoto }}">
-  <meta property="og:image:secure_url" content="{{ site.baseurl | prepend: site.url }}{{ site.thumbs }}{{ page.coverPhoto }}">
-  <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.thumbs }}{{ page.coverPhoto }}">
+  <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}{{ page.coverPhoto }}">
+  <meta property="og:image:secure_url" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}{{ page.coverPhoto }}">
+  <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}{{ page.coverPhoto }}">
 {% elsif site.defaultSocialMediaImage %}
-  <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.thumbs }}{{ site.defaultSocialMediaImage }}">
-  <meta property="og:image:secure_url" content="{{ site.baseurl | prepend: site.url }}{{ site.thumbs }}{{ site.defaultSocialMediaImage }}">
-  <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.thumbs }}{{ site.defaultSocialMediaImage }}">
+  <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}{{ site.defaultSocialMediaImage }}">
+  <meta property="og:image:secure_url" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}{{ site.defaultSocialMediaImage }}">
+  <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}{{ site.defaultSocialMediaImage }}">
 {% endif %}
 
 <meta name="og:image:alt" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
