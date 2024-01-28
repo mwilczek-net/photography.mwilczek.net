@@ -3,7 +3,7 @@ layout: post
 title: Buildings - Summer & Autumn 2024
 summary: "Visits during two seasons"
 date: 2024-01-28
-coverPhoto: "2024-01-28-buildings-summer-autumn-2024/IMG_1809_rt-1_gimp"
+coverPhoto: "2024-01-28-buildings-summer-autumn-2024/IMG_1809_rt-1_gimp.jpg"
 photos:
   "2024-01-28-buildings-summer-autumn-2024/IMG_1427_rt.jpg":
     title: "View from Basilica"
