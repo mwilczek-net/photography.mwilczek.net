@@ -8,7 +8,7 @@
       <p>
         {{ post.summary }}
         <br>
-        <a href="{{ post.url | relative_url }}">Go to full gallery</a> | <a href="{{ site.baseurl }}{{ site.images }}{{ post.coverPhoto }}" target="_blank">Full image - click here</a>
+        <a href="{{ post.url | relative_url }}">Open this gallery</a> | <a href="{{ site.baseurl }}{{ site.images }}{{ post.coverPhoto }}" target="_blank">Full image - click here</a>
       </p>
     </article>
   {% endfor %}
