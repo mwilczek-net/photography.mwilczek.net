@@ -3,7 +3,7 @@ layout: post
 title: Portraits - Summer & Autumn 2024
 summary: "Portraits"
 date: 2024-01-31
-coverPhoto: "2024-01-30-portraits-summer-autumn-2024/SELECT_COVER_PHOTO.null !!! !!!"
+coverPhoto: "2024-01-30-portraits-summer-autumn-2024/IMG_2163_rt-1.jpg"
 photos:
   "2024-01-30-portraits-summer-autumn-2024/IMG_1549_rt-1.jpg":
     title: "The Meerkat"
