@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Hiking- Summer & Autumn 2024
-summary: "Highing through Poland"
+title: Hiking - Summer & Autumn 2024
+summary: "Hiking through Poland"
 date: 2024-02-04
 coverPhoto: "2024-02-04-hiking-summer-autumn-2024/IMG_2098_rt-1.jpg"
 photos:
