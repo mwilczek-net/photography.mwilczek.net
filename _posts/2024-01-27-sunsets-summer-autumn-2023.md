@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sunsets of Summer & Autumn 2024
+title: Sunsets of Summer & Autumn 2023
 summary: "Sunsets of two seasons"
 date: 2024-01-27
 coverPhoto: "2024-01-27-sunsets-summer-autumn-2024/IMG_1331_rt.jpg"

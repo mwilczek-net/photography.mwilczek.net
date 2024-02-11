@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Museum - Summer & Autumn 2024
+title: Museum - Summer & Autumn 2023
 summary: "Past"
 date: 2024-02-08
 coverPhoto: "2024-02-08-museum-summer-autumn-2024/IMG_1391_rt-1.jpg"
