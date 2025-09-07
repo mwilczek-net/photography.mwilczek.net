@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Volley Amigos 35
-summary: Amateur Volleyball League <a href="https://volleyamigos35.pl" target="_blank">Volley Amigos 35</a>
+summary: Amateur Volleyball League Volley Amigos 35
 date: 2025-09-07
 coverPhoto: "2025-09-07-volleyamigos35/BH0A1648_lrc-2.jpg"
 photos:
@@ -28,6 +28,6 @@ photos:
     description: Amateur Volleyball League <a href="https://volleyamigos35.pl" target="_blank">Volley Amigos 35</a>
 ---
 
-Amateur Volleyball League Volley Amigos 35: [volleyamigos35.pl](https://volleyamigos35.pl/) (Upper Silesia)
+Amateur Volleyball League Volley Amigos 35: <a href="https://volleyamigos35.pl" target="_blank">Volley Amigos 35</a> (Upper Silesia)
 
 My first sport photography 🏐🏅
