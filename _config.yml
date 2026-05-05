@@ -11,6 +11,12 @@ socialMedia:
   GitHub:
     url: "https://github.com/mwilczek-net/"
     icon: "brands fa-github"
+  Facebook:
+    url: "https://facebook.com/mirek.wi/"
+    icon: "brands fa-facebook"
+  Instagram:
+    url: "https://instagram.com/mirek.wi/"
+    icon: "brands fa-instagram"
   Blog:
     url: "https://blog.mwilczek.net/"
     icon: "solid fa-blog"
