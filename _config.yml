@@ -8,15 +8,18 @@ socialMedia:
   Web:
     url: "https://mwilczek-net.github.io/"
     icon: "solid fa-globe"
-  GitHub:
-    url: "https://github.com/mwilczek-net/"
-    icon: "brands fa-github"
   Facebook:
     url: "https://facebook.com/mirek.wi/"
     icon: "brands fa-facebook"
   Instagram:
     url: "https://instagram.com/mirek.wi/"
     icon: "brands fa-instagram"
+  LinkedIn:
+    url: "https://linkedin.com/in/mwilczek"
+    icon: "brands fa-linkedin"
+  GitHub:
+    url: "https://github.com/mwilczek-net/"
+    icon: "brands fa-github"
   Blog:
     url: "https://blog.mwilczek.net/"
     icon: "solid fa-blog"
